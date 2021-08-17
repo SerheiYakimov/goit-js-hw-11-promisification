@@ -32,6 +32,13 @@
         user.name === userName ? { ...user, active: !user.active } : user,
       );
 
+      setTimeout(() => {
+        if(updatedUsers) {
+          resolve(updatedUsers);
+        }
+        reject();
+      }, 1000);
+
     })
     
   
