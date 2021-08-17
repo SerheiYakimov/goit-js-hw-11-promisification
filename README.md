@@ -6,7 +6,7 @@
 
 ```js
 const delay = ms => {
-  // Твой код
+  // твой код
 };
 
 const logger = time => console.log(`Resolved after ${time}ms`);
